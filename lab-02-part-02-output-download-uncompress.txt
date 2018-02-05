@@ -112,6 +112,11 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
+curl -o google.html www.google.com
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11330    0 11330    0     0  11330      0 --:--:-- --:--:-- --:--:-- 89920
 
 
 
@@ -121,7 +126,8 @@ Write the command you used below.  Also copy and paste the output below.
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
 
-
+pwd
+/Users/student
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
@@ -129,7 +135,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 13. So... the lab materials are located at this url:
