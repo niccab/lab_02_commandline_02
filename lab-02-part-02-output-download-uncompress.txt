@@ -151,6 +151,11 @@ Use ls to verify that it downloaded.
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
 
+curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0    178      0  0:00:01 --:--:--  0:00:01   315
 
 
 ==========
@@ -159,6 +164,7 @@ Write down the command that you used to download the file below.  Additionally, 
 Write down the command that you used to uncompress the file.
 ----------
 
+unzip mtec1002.zip
 
 
 ==========
@@ -167,6 +173,7 @@ Write down the command that you used to uncompress the file.
 Copy and paste the output below.
 ----------
 
+books	logs	web
 
 
 ==========
@@ -178,6 +185,11 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 Copy and paste the output below.
 ----------
 
+Adlm			Downloads		New Unity Project	google.html		pymel.log
+Adobe			Library			Pictures		ipe.properties		stuff
+Applications		MPLABXProjects		Public			isus			xgen
+Desktop			Movies			QLData			mtec1002-lab-02.zip
+Documents		Music			Things			mtec1003
 
 
 ==========
@@ -190,7 +202,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+hello.txt
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -202,6 +214,11 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
+Adlm			Downloads		New Unity Project	google.html		pymel.log
+Adobe			Library			Pictures		ipe.properties		stuff
+Applications		MPLABXProjects		Public			isus			stuff.tar
+Desktop			Movies			QLData			mtec1002-lab-02.zip	xgen
+Documents		Music			Things			mtec1003
 
 
 ==========
@@ -212,7 +229,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
+a stuff
+a stuff/hello.txt
 
 ==========
 20. List the files in the directory you're currently in (which should be home).  
@@ -220,6 +238,11 @@ Copy and paste the output below.
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
 
+Adlm			Downloads		New Unity Project	google.html		pymel.log
+Adobe			Library			Pictures		ipe.properties		stuff
+Applications		MPLABXProjects		Public			isus			stuff.tar
+Desktop			Movies			QLData			mtec1002-lab-02.zip	xgen
+Documents		Music			Things			mtec1003
 
 
 ==========
@@ -230,6 +253,11 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
 
+Adlm			Downloads		New Unity Project	google.html		pymel.log
+Adobe			Library			Pictures		ipe.properties		stuff
+Applications		MPLABXProjects		Public			isus			stuff.tar.gz
+Desktop			Movies			QLData			mtec1002-lab-02.zip	xgen
+Documents		Music			Things			mtec1003
 
 
 ==========
@@ -244,6 +272,8 @@ Change your directory to mtec1002-lab-02.
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
 
+books		logs		stuff.tar.gz	web
+
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -252,6 +282,8 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+
+books		logs		stuff		stuff.tar.gz	web
 
 
 
@@ -272,8 +304,11 @@ REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 Write out the commands that you used to do this.
 ----------
 
+//secret.tar.gz file does not exist.
 
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
 ----------
+
+//secret.tar.gz file does not exist.
