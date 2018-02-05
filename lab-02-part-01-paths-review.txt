@@ -88,9 +88,14 @@ cd ../..
 13. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/profesor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
 
+cd -
+
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
+
+cd Desktop/
+ls -alt
 
 ==========
 Optional Challenge:
@@ -103,3 +108,12 @@ e. Determine which folder in my-stuff was created most recently by using ls.  (t
 f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
+cd ~
+cd Desktop/
+mkdir my-stuff
+cd my-stuff
+mkdir archived
+mkdir current
+mkdir ent-v314-008
+ls -alt
+rmdir ent-v314-008
